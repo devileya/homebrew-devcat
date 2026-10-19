@@ -2,27 +2,27 @@
 class DevcatCli < Formula
   desc "DevCat without a window: share this computer with DevCat Mobile and browsers"
   homepage "https://github.com/devileya/DevCat"
-  version "0.7.0"
+  version "0.7.1"
 
   on_macos do
     on_arm do
       url "https://github.com/devileya/DevCat/releases/download/v#{version}/devcat-cli-aarch64-apple-darwin.tar.gz"
-      sha256 "b27471a72e5bb413243ddfd10374ce12658e5aff29fca26e29ccded6ddcc852e"
+      sha256 "98a90a6424be729e96d76a8bdf59f71a3756ce28979f7351ad676c30c3f46d96"
     end
     on_intel do
       url "https://github.com/devileya/DevCat/releases/download/v#{version}/devcat-cli-x86_64-apple-darwin.tar.gz"
-      sha256 "0032f9a0bfcbbf75a18534695032fdb71fa128b9259ee95afc13206e06087eaa"
+      sha256 "12b84f0ba8e1332afbf06ce8f3a5a6ddbc7356f43713984ab3877bd74adf592c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/devileya/DevCat/releases/download/v#{version}/devcat-cli-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e5ef6cd36c153be366bd266ec748d97bdcda3e7157fea7c7008981a00c43b1be"
+      sha256 "b7446d233841942753ba054d0aae4e8a4e108ee3b88e782940f903c619b5fcb2"
     end
     on_intel do
       url "https://github.com/devileya/DevCat/releases/download/v#{version}/devcat-cli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "01e4ec5df70f3cd651c6352aba0f0900a83032b5f78e34e27468c248d6452751"
+      sha256 "da987843efc2e1a4a9042786989f8cb3fa6f5ddd971e02369282211aa74ca44e"
     end
   end
 

@@ -2,9 +2,9 @@
 cask "devcat" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.7.0"
-  sha256 arm:   "74fa61ec311a2e3a3f1417df96c3fdfaf2069987d0774c50618cc96bf6b122a9",
-         intel: "deac466aceb8dc2661489d00882d4c04f348ad01592eec96c667925f61f5a44c"
+  version "0.7.1"
+  sha256 arm:   "bfe7154722827856b9ec8e2cfe88096a4fb2df19528d9bc8114e68f71bfc5fbb",
+         intel: "5f977686e2296374d94458fd37d2b7e6f0827f7c63dab0fcb130adfc5152d12f"
 
   url "https://github.com/devileya/DevCat/releases/download/v#{version}/DevCat_#{version}_#{arch}.dmg"
   name "DevCat"
