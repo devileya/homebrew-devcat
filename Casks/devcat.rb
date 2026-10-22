@@ -2,14 +2,14 @@
 cask "devcat" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.7.1"
-  sha256 arm:   "bfe7154722827856b9ec8e2cfe88096a4fb2df19528d9bc8114e68f71bfc5fbb",
-         intel: "5f977686e2296374d94458fd37d2b7e6f0827f7c63dab0fcb130adfc5152d12f"
+  version "0.8.0"
+  sha256 arm:   "a069c59969895094b95f85ce7f1a573b45e1ef745f45e2b17005301ecfea77c1",
+         intel: "7832e26b757550656fea0e3fe5f6f79a23204390d563dc0146eb401251a9250f"
 
-  url "https://github.com/devileya/DevCat/releases/download/v#{version}/DevCat_#{version}_#{arch}.dmg"
+  url "https://github.com/devcathq/DevCat/releases/download/v#{version}/DevCat_#{version}_#{arch}.dmg"
   name "DevCat"
   desc "Developer workbench: AI coding agents, Git, databases, Kubernetes and VPNs"
-  homepage "https://github.com/devileya/DevCat"
+  homepage "https://github.com/devcathq/DevCat"
 
   auto_updates true
   depends_on :macos
