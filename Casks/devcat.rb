@@ -2,9 +2,9 @@
 cask "devcat" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.12.0"
-  sha256 arm:   "de3b04e72e0fa45e01787170de70e99a0e88243713103ebff91b3d49719ab147",
-         intel: "121a6248a5cc5d6988e5b97c6c0718d17c0b380112c554b14b9ba85b2657a6d7"
+  version "0.13.0"
+  sha256 arm:   "75a965337b634d0fb838f996e17102ad989ad288801e96161c3660ea16d96b31",
+         intel: "ae4181334ccc376450cd79a78bd6feef4abcfcdb8a19d34d533aa7a4d7c29a81"
 
   url "https://github.com/devcathq/DevCat/releases/download/v#{version}/DevCat_#{version}_#{arch}.dmg"
   name "DevCat"
