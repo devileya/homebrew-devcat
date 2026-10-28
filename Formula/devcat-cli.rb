@@ -2,27 +2,27 @@
 class DevcatCli < Formula
   desc "DevCat without a window: share this computer with DevCat Mobile and browsers"
   homepage "https://github.com/devcathq/DevCat"
-  version "0.14.0"
+  version "0.15.0"
 
   on_macos do
     on_arm do
       url "https://github.com/devcathq/DevCat/releases/download/v#{version}/devcat-cli-aarch64-apple-darwin.tar.gz"
-      sha256 "bb1df3baef9bc4f17967b782a242a9b69135cf9a97705b314c1165068a89b307"
+      sha256 "fd2303077dbf4140133c0bf6efbaefabe796efa6ea8e59178bd5223494bd3ff3"
     end
     on_intel do
       url "https://github.com/devcathq/DevCat/releases/download/v#{version}/devcat-cli-x86_64-apple-darwin.tar.gz"
-      sha256 "9a3194f56800faeb0190b27c2e34c6aa40ea908ef1abf6446e9313a9dcd2cf06"
+      sha256 "909de532217eee656c3c299ed853f9cafeac749736296cd10b8547e779db57a2"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/devcathq/DevCat/releases/download/v#{version}/devcat-cli-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7d1543d25adc9383599a2b5a3f6de1f1834808f04b7e3579ded797eea4b165da"
+      sha256 "45c4c1e27e995b3077219ba730713975597dc862e4966961ec1394bdc30e52b5"
     end
     on_intel do
       url "https://github.com/devcathq/DevCat/releases/download/v#{version}/devcat-cli-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4a3beb34dc6b89fe05daa6af14c1e8d6e360c577434f3ff68a9f3005a43f3f7e"
+      sha256 "be2155cd6b32e97784b3a3e29a72c653596331d529d1c5724f2767dbafaf3b70"
     end
   end
 
